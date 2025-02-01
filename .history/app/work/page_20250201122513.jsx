@@ -62,7 +62,7 @@ const projects = [
     description:
       "Diseñé y desarrollé el nuevo sitio web de Meritum Dev, una empresa especializada en desarrollo de software. Me encargué de la UI/UX para lograr una experiencia moderna, profesional y atractiva, alineada con la identidad de la marca.",
     stack: ["Framer"],
-    image: "/assets/work/thumb4.png",
+    image: "/assets/work/thum3.png",
     live: "https://www.meritumdev.com",
     github: "",
   },
