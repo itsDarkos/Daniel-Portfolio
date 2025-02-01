@@ -10,27 +10,28 @@ const services = [
     title: "Desarrollo Web",
     description:
       "Creo sitios web funcionales y atractivos que combinan diseño y tecnología.",
-    href: "",
+    href: "/desarrollo-web",
   },
   {
     num: "02",
     title: "Diseño UI/UX",
-    description: "Diseño experiencias digitales elegantes y fáciles de usar.",
-    href: "",
+    description:
+      "Diseño experiencias digitales elegantes y fáciles de usar.",
+    href: "/diseno-ui-ux",
   },
   {
     num: "03",
     title: "Diseño de Logotipos",
     description:
       "Diseño logotipos únicos que reflejan la esencia de cada marca.",
-    href: "",
+    href: "/diseno-logotipos",
   },
   {
     num: "04",
     title: "SEO",
     description:
       "Optimizo sitios web para destacar en los motores de búsqueda y atraer a más usuarios.",
-    href: "",
+    href: "/seo",
   },
 ];
 
@@ -73,6 +74,18 @@ const Services = () => {
                 {/* description */}
                 <p className="text-white/60">{service.description}</p>
                 {/* border */}
+                <div className="border-b border-white/20 w-full"></div>
+              </div>
+            );
+          })}
+        </motion.div>
+      </div>
+    </section>
+  );
+};
+
+export default Services;
+             {/* border */}
                 <div className="border-b border-white/20 w-full"></div>
               </div>
             );

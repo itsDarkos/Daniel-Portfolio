@@ -47,11 +47,7 @@ const Home = () => {
               <span className="text-accent">Daniel Lázaro Hernández</span>
             </h1>
             <p className="max-w-[500px] mb-9 text-white/80">
-              Front-end Developer & UI/UX Designer especializado en el
-              desarrollo de experiencias digitales elegantes y funcionales.
-              Experto en el diseño de interfaces creativas y modernas, con un
-              enfoque en la innovación a través de la combinación de código y
-              estilo.
+            Front-end Developer & UI/UX Designer especializado en el desarrollo de experiencias digitales elegantes y funcionales. Experto en el diseño de interfaces creativas y modernas, con un enfoque en la innovación a través de la combinación de código y estilo.
             </p>
             {/* btn and socials */}
             <div className="flex flex-col xl:flex-row items-center gap-8">

@@ -24,19 +24,8 @@ import WorkSliderBtns from "@/components/WorkSliderBtns";
 const projects = [
   {
     num: "01",
-    category: "Diseño UI/UX y Desarrollo",
-    title: "Proyecto 1",
-    description:
-      "Diseñé y desarrollé mi portafolio, un portafolio digital que refleja mi enfoque profesional como Front-end Developer & UI/UX Designer. El diseño de la interfaz y la experiencia de usuario están cuidadosamente elaborados para ofrecer una presentación moderna y elegante de mis habilidades y proyectos.",
-    stack: ["Next.js, Tailwind CSS y Framer Motion"],
-    image: "/assets/work/thumb3.png",
-    live: "https://daniel-portfolio-neon-zeta.vercel.app/",
-    github: "https://github.com/itsDarkos/Daniel-Portfolio",
-  },
-  {
-    num: "02",
     category: "Desarrollo Front End",
-    title: "Proyecto 2",
+    title: "Proyecto 1",
     description:
       "Cuadro GYM es una app fitness donde desarrollé todo el front-end y los scripts para su funcionalidad. Permite crear rutinas personalizadas, realizar seguimiento de composición corporal y acceder a videos de ejercicios, ofreciendo una experiencia adaptada al usuario.",
     stack: ["Unity", "C#"],
@@ -45,9 +34,9 @@ const projects = [
     github: "",
   },
   {
-    num: "03",
+    num: "02",
     category: "Diseño UI/UX",
-    title: "Proyecto 3",
+    title: "Proyecto 2",
     description:
       "Este proyecto consistió en el diseño completo de la interfaz y experiencia de usuario (UI/UX) utilizando Figma. Creé un sistema visual moderno, intuitivo y enfocado en mejorar la interacción del usuario con la aplicación.",
     stack: ["Figma"],
@@ -56,9 +45,9 @@ const projects = [
     github: "",
   },
   {
-    num: "04",
+    num: "03",
     category: "Diseño UI/UX y Desarrollo",
-    title: "Proyecto 4",
+    title: "Proyecto 3",
     description:
       "Diseñé y desarrollé el nuevo sitio web de Meritum Dev, una empresa especializada en desarrollo de software. Me encargué de la UI/UX para lograr una experiencia moderna, profesional y atractiva, alineada con la identidad de la marca.",
     stack: ["Framer"],
@@ -66,7 +55,17 @@ const projects = [
     live: "https://www.meritumdev.com",
     github: "",
   },
-  
+  {
+    num: "04",
+    category: "Diseño UI/UX y Desarrollo",
+    title: "Proyecto 4",
+    description:
+      "Diseñé y desarrollé mi portafolio, un portafolio digital que refleja mi enfoque profesional como Front-end Developer & UI/UX Designer. El diseño de la interfaz y la experiencia de usuario están cuidadosamente elaborados para ofrecer una presentación moderna y elegante de mis habilidades y proyectos.",
+    stack: ["Nextjs, TailwindCSS y Framer Motion"],
+    image: "/assets/work/thumb3.png",
+    live: "https://daniel-portfolio-neon-zeta.vercel.app/",
+    github: "https://github.com/itsDarkos/Daniel-Portfolio",
+  },
 ];
 
 const Work = () => {

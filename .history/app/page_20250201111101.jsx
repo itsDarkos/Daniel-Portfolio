@@ -44,18 +44,15 @@ const Home = () => {
             <span className="text-xl">Desarrollador de Software</span>
             <h1 className="h1 mb-6">
               Hola soy <br />{" "}
-              <span className="text-accent">Daniel Lázaro Hernández</span>
+              <span className="text-accent">Daniel Lazaro Hernandez</span>
             </h1>
             <p className="max-w-[500px] mb-9 text-white/80">
-              Front-end Developer & UI/UX Designer especializado en el
-              desarrollo de experiencias digitales elegantes y funcionales.
-              Experto en el diseño de interfaces creativas y modernas, con un
-              enfoque en la innovación a través de la combinación de código y
-              estilo.
+              Me destaco en el desarrollo front-end, creando experiencias
+              digitales elegantes y funcionales con tecnologías web modernas.
             </p>
             {/* btn and socials */}
-            <div className="flex flex-col xl:flex-row items-center gap-8">
-              {/* <Button
+            {/* <div className="flex flex-col xl:flex-row items-center gap-8">
+              <Button
                 variant="outline"
                 size="lg"
                 className="uppercase flex items-center gap-2"

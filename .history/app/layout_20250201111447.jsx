@@ -1,7 +1,5 @@
 import { JetBrains_Mono } from "next/font/google";
-import { SpeedInsights } from "@vercel/speed-insights/next"
 import "./globals.css";
-
 
 // components
 import Header from "@/components/Header";
@@ -15,8 +13,8 @@ const jetBrainsMono = JetBrains_Mono({
 });
 
 export const metadata = {
-  title: "Daniel Lazaro Hdez - Portafolio",
-  description: "Portafolio de Daniel Lazaro Hdez, desarrollador Front-end y diseñador UI/UX, especializado en crear experiencias digitales elegantes y funcionales.",
+  title: "Daniel Lazaro Hdez",
+  description: "Portafolio by create next app",
 };
 
 export default function RootLayout({ children }) {
@@ -25,7 +23,6 @@ export default function RootLayout({ children }) {
       <body className={jetBrainsMono.variable}>
         <Header />
         <StairTransition />
-        <SpeedInsights/>
         <PageTransition>{children}</PageTransition>
       </body>
     </html>

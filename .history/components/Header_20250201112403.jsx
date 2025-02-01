@@ -13,7 +13,7 @@ export const Header = () => {
         <Link href="/" className="flex items-center gap-2">
           <img src="/assets/LogoDarkos.png" alt="Logo" className="w-16 h-16" />
           <h1 className="text-4xl font-semibold">
-            DarkosDev<span className="text-accent">.</span>
+            Daniel<span className="text-accent">.</span>
           </h1>
         </Link>
         {/* desktop nav & hire me button */}

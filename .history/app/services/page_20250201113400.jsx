@@ -15,22 +15,23 @@ const services = [
   {
     num: "02",
     title: "Diseño UI/UX",
-    description: "Diseño experiencias digitales elegantes y fáciles de usar.",
-    href: "",
+    description:
+      "Diseño experiencias digitales elegantes y fáciles de usar.",
+    href: "/diseno-ui-ux",
   },
   {
     num: "03",
     title: "Diseño de Logotipos",
     description:
       "Diseño logotipos únicos que reflejan la esencia de cada marca.",
-    href: "",
+    href: "/diseno-logotipos",
   },
   {
     num: "04",
     title: "SEO",
     description:
       "Optimizo sitios web para destacar en los motores de búsqueda y atraer a más usuarios.",
-    href: "",
+    href: "/seo",
   },
 ];
 

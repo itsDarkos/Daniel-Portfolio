@@ -15,7 +15,8 @@ const services = [
   {
     num: "02",
     title: "Diseño UI/UX",
-    description: "Diseño experiencias digitales elegantes y fáciles de usar.",
+    description:
+      "Diseño experiencias digitales elegantes y fáciles de usar.",
     href: "",
   },
   {
